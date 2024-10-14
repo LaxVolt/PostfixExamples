@@ -22,8 +22,13 @@ These are a sanatized set of files that will allow SMTP relay functionality to M
 
 ### File Functions
 main.cf = primary configuration file for postfix, most changes are at the bottom of this config file but a few settings are inline you need to pay attention for.
+
 local_domains = these are your email domains
+
 open_access = list of ip based devices that can use the relay
+
 restrict_senders = list of from addresses that can use the relay
+
 transport = configuration that points to M365
+
 recipient_access = not sure what this does as I did not use it
