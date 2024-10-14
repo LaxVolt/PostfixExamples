@@ -1,0 +1,8 @@
+# Server List by IP for unrestricted e-mail sending
+# # Format = Device Action (example: 1.2.3.4 REJECT)
+# Actions = OK, REJECT
+# For more actions see https://postfix.org/access.5.html
+#
+192.168.0.10 OK #Printer - HP
+192.168.0.20 OK #Copier - Xerox
+* DUNNO

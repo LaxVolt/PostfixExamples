@@ -1,0 +1,13 @@
+# List of FROM email addresses that are allow to relay external
+#
+# acceptable classifications = local_only, OK, REJECT
+# local_only = relay only to same domain
+# OK = allow relay to all
+# REJECT = reject relay access
+#
+# example 1: helpdesk@contoso.com OK
+# example 2: dummy@contoso.com REJECT
+noreply@contoso.com OK
+contoso.com local_only
+.contoso.com local_only
+* DUNNO
