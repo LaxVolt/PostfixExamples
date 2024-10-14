@@ -41,12 +41,21 @@ Then you need to restart the postfix server for those changes to take effect.
 `postfix stop`, then `postfix reload`, then `postfix start`
 
 ### Helpful Postfix Commands
+
 `postfix reload` = reload postfix
+
 `postfix stop` = stop postfix
+
 `postfix start` = start postfix
+
 `postfix status` = see status of postfix
+
 `postmap filename` = update file map after changes to file
+
 `mailq` = view mail queue
+
 `postqueue -p` = print/view mail queue
+
 `postqueue -f` = flush/release mail queue
+
 `tail -f /var/log/maillog | grep -B 2 -A 2 "emailaddress"` = search log for messages
