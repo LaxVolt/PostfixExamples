@@ -34,8 +34,8 @@ transport = configuration that points to M365
 recipient_access = not sure what this does as I did not use it
 
 ### Post configuration requirements.
-After modifying the configuration files (all except "main.cf") you need to convert them to a db file.  This is achieved by the postconf command. 
-Example: `postconf transport` or `postconf open_access`, etc
+After modifying the configuration files (all except "main.cf") you need to convert them to a db file.  This is achieved by the postmap command. 
+Example: `postmap transport` or `postmap open_access`, etc
 
 Then you need to restart the postfix server for those changes to take effect.
 `postfix stop`, then `postfix reload`, then `postfix start`
